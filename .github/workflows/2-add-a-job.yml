@@ -1,4 +1,8 @@
-name: Step 2, Add a job
+name: Post welcome comment
+on:
+  pull_request:
+    types: [opened]
+    
 
 # This step triggers after every push to emoji-workflow
 # This step sets STEP to 3
